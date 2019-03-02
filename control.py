@@ -13,6 +13,7 @@ read = True
 #subprocess.call(['aplay', 'sounds/hello.wav'])
 blinzler.play_audio('sounds/hello.wav')
 while True:
+	# GPIO.wait_for_edge(40, GPIO.FALLING)
 	if GPIO.input(40)==GPIO.LOW:
 		# sleep befehl zum entprellen
 		time.sleep(2)

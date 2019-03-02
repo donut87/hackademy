@@ -8,7 +8,7 @@ from PIL import Image, ImageEnhance, ImageFilter
 
 
 class Blinzler:
-	""" Main Class for the Blinzler Devise """
+	""" Main Class for the Blinzler Device """
 	picture_text = []
 	last_textfile = ""
 	last_picture = ""
