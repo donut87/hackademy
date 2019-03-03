@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from blinzel import Blinzler
 import time, os, subprocess
 import RPi.GPIO as GPIO
@@ -25,7 +27,7 @@ blinzler.speak_text()
 		#print "STOP reading"
 		#time.sleep(2)
 		#blinzler.continue_reading()
-print "Lesen beendet"
+print("Lesen beendet")
 	
 		#print "runtest: " + str(blinzler.speak_runtest())
 		#if not blinzler.speak_runtest():
